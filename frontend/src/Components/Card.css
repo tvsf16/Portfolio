@@ -1,0 +1,52 @@
+@import 
+url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+
+
+body{
+    font-family:Oxygen, sans-serif;
+    margin:2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.header>button{
+    float:right;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin:0 25%;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.card{
+    overflow: hidden;
+    box-shadow: 0 2px 7px gray;
+    text-align: center;
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.card__title{
+        padding: 1rem;
+}
+
+.card__description{
+        padding: 0 1rem;
+}
+
