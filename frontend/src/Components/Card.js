@@ -4,9 +4,9 @@ import './Card.css';
 function Card() {
     const [Data,setData]= useState([]);
     const [Item]=useState([
-      {name:'shit', description:'omg man'},
-      {name:'notshit', description:'not omg man'},
-      {name:'shit2', description:'not dwaaomg man'}
+      {name:'CardNumberOne', description:'this is just a test'},
+      {name:'CardNumberTwo', description:'this is just a test'},
+      {name:'CardNumberThree', description:'this is just a test'}
     ]);
   useEffect(() => {
    //   fetch("https://rickandmortyapi.com/api/character")
